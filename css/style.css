@@ -56,12 +56,115 @@ section#hero {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 100vh;
 }
 
-div.brownSide h1.title {
+.title {
     color: #F8F8F8;
     font-family: Artisual Deco DEMO;
-    font-size: 3rem;
+    font-size: 5rem;
     text-transform: uppercase;
+}
+
+.subTitle {
+    color: #F8F8F8;
+    font-family: Artisual Deco DEMO;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+div.brownSide p {
+    color: #F8F8F8;
+    width: 325px;
+}
+
+.buttonYellowTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #FCBC40;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 45px;
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.buttonYellowTitle a {
+    color: #402C11;
+}
+
+.buttonTransparentTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #ffffff00;
+    border-color: #F8F8F8;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 20px 45px;
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.buttonTransparentTitle a {
+    color: #F8F8F8;
+}
+
+/*---TITLE SETTINGS*/
+
+div#title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 250px;
+    justify-items: center;
+    grid-gap: 250px;
+}
+
+/*------BROWN SIDE*/
+
+div#title div.brownSide {
+    z-index: 1;
+    margin-left: 70px;
+}
+
+/*------CHAIR SETTINGS*/
+
+img.chairMenu {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 30px;
+    z-index: 0;
+}
+
+/*------YELLOW SIDE*/
+
+div#title div.yellowSide {
+    z-index: 2;
+    margin-right: 70px;
+}
+
+div#title div.yellowSide div.flexMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+div#title div.yellowSide div.flexMedia img {
+    margin-bottom: 35px;
+    margin-left: auto;
+}
+
+div#title div.yellowSide div.flexMedia img.instagram {
+    height: 16.03px;
+    width: 15.64px;
+}
+
+div#title div.yellowSide div.flexMedia img.twitter {
+    height: 12.98px;
+    width: 15.61px;
+}
+
+div#title div.yellowSide div.flexMedia img.facebook {
+    height: 16.01px;
+    width: 8.15px;
+    margin-right: 4px;
 }
