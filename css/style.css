@@ -1,0 +1,67 @@
+/*SETTINGS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER SETTINGS*/
+
+header nav {
+    height: 70px;
+}
+
+header nav ul {
+    margin: 0 52px;
+    padding: 10px;
+}
+
+header nav ul#menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+/*HERO SETTINGS*/
+
+section#hero {
+    background-image: url("../images/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+div.brownSide h1.title {
+    color: #F8F8F8;
+    font-family: Artisual Deco DEMO;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
