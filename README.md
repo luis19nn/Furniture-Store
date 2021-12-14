@@ -1,2 +1,2 @@
 # Furniture-Store
-Um site de uma loja de móveis utilizando CSS e HTML.
+Um site de uma loja de móveis utilizando HTML e CSS.
